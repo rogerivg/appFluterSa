@@ -1,0 +1,74 @@
+[
+  {
+    "id": "0",
+    "bk": "BPN",
+    "br": "visa",
+    "ty": "credit",
+    "nm": "1234 5678 1234 5678",
+    "co": 4288878359,
+    "txt": "MisCuentas1",
+    "bl": "$ 320",
+    "tx": [
+      {
+        "m": "Payment",
+        "t": "5:00 PM",
+        "a": "-$24",
+        "i": "coins"
+      },
+      {
+        "m": "Starbucks",
+        "t": "2:13 PM",
+        "a": "-$42",
+        "i": "contentCut"
+      },
+      {
+        "m": "Theater",
+        "t": "10:00 PM",
+        "a": "-$24",
+        "i":"theater"
+      },
+      {
+        "m": "Uber",
+        "t": "5:00 PM",
+        "a": "-$24",
+        "i": "car"
+      },
+      {
+        "m": "Target",
+        "t": "3:21 AM",
+        "a": "-$219",
+        "i": "shopping"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "bk": "Providencia",
+    "br": "visa",
+    "ty": "debit",
+    "nm": "1234 5678 1234 5678",
+    "co": 4288878359,
+    "txt": "MisCuentas2",
+    "bl": "€ 32 987",
+    "tx": [
+      {
+        "m": "Hilton Hotel",
+        "t": "10:13 PM",
+        "a": "-$173",
+        "i": "hotel"
+      },
+      {
+        "m": "Ikea",
+        "t": "1:30 PM",
+        "a": "-$328",
+        "i": "home"
+      },
+      {
+        "m": "Dentist",
+        "t": "2:15 PM",
+        "a": "-$32",
+        "i": "toothOutline"
+      }
+    ]
+  }
+]
