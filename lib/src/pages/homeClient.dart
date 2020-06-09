@@ -1,3 +1,4 @@
+import 'package:apppocsa/src/components/visual/appBar/appBarWidget.dart';
 import 'package:apppocsa/src/models/app_state.dart';
 import 'package:apppocsa/src/pages/misCreditos.dart';
 import 'package:apppocsa/src/pages/misCuentas.dart';
@@ -20,13 +21,8 @@ class _HomeClientPageState extends State<HomeClientPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: DrawerMenu(),
-      appBar: AppBar(
-        backgroundColor: Color.fromRGBO(195, 16, 16, 1),
-        title: Text(StoreProvider.of<AppState>(context).state.usuarioModel.userName),
-        actions: <Widget>[
-          Image.asset('icons/accenture.png', height: 20, width: 20),
-        ],
-      ),
+      //appBar: AppBarWidget(StoreProvider.of<AppState>(context).state.usuarioModel.userName),
+      appBar: AppBarWidget("Aplicación"),
       backgroundColor: Color.fromRGBO(235, 236, 240, 1),
       body: ModalProgressHUD(
         child: Stack(
