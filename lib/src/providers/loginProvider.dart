@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 
 class LoginProvider{
-  final String _url = 'https://apimanagmentpoc.azure-api.net/';
+  final String _url = 'https://apimanagmentpoc.azure-api.net';
   /*
   Future<bool> crearProducto( ProductoModel producto) async {
     final url = _url+'/Productos.json';
